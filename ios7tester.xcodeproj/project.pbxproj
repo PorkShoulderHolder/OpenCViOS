@@ -188,10 +188,7 @@
 				425CAAAB17FF8E2400F23AD2 /* Main_iPad.storyboard */,
 				425CAAAE17FF8E2400F23AD2 /* ViewController.h */,
 				425CAAAF17FF8E2400F23AD2 /* ViewController.mm */,
-				42C7AEFB180F26C4007EE55D /* CVViewController.h */,
-				42C7AEFC180F26C4007EE55D /* CVViewController.mm */,
-				42F454781809B56000590B05 /* CVDelegate.h */,
-				42F454791809B56000590B05 /* CVDelegate.mm */,
+				D01CFB9C1AE1CC20001D1CA4 /* LED(unused) */,
 				42F4547D180A176400590B05 /* templateMatcher.h */,
 				42F4547E180A176400590B05 /* templateMatcher.mm */,
 				427FFDB4180BFC4300D17F96 /* circleDetector.h */,
@@ -242,6 +239,17 @@
 				425CAAC117FF8E2400F23AD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D01CFB9C1AE1CC20001D1CA4 /* LED(unused) */ = {
+			isa = PBXGroup;
+			children = (
+				42C7AEFB180F26C4007EE55D /* CVViewController.h */,
+				42C7AEFC180F26C4007EE55D /* CVViewController.mm */,
+				42F454781809B56000590B05 /* CVDelegate.h */,
+				42F454791809B56000590B05 /* CVDelegate.mm */,
+			);
+			name = "LED(unused)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

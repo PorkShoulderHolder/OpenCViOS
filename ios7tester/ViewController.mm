@@ -28,11 +28,6 @@
     self.freek = [[freak alloc] init];
 	self.camera = [[CvVideoCamera alloc] initWithParentView:self.imgView];
 
-    //
-    //self.imgView.transform = CGAffineTransformMakeRotation(3*M_PI/2);
-    //self.imgView.frame.size = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - 200); // change this to whatever rect you
-    
-    
     self.camera.delegate = nil;
     self.tableView.delegate = self;
     self.camera.defaultAVCaptureDevicePosition = AVCaptureDevicePositionBack;
@@ -46,7 +41,6 @@
     [self.camera start];
     AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
     [device lockForConfiguration:nil];
-    //[device setTorchMode:AVCaptureTorchModeOn];
     [device unlockForConfiguration];
     // Do any additional setup after loading the view, typically from a nib.
 }
