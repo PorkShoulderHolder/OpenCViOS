@@ -1,5 +1,5 @@
 # OpenCViOS
-A few examples of different computer vision tools running on ios via openCV 
+A few examples of different computer vision tools running on ios via openCV. There is an issue with performance and/or cpu throttling after about 5 seconds of image processing that needs to be worked out.
 
 ### sparse optical flow
 tracks only a few keypoints, using the goodFeaturesToTrack function, faster than dense optical flow. Uses lucas kanade algorithm.
