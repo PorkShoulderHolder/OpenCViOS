@@ -5,11 +5,11 @@
 //  Created by Sam Fox on 10/14/13.
 //  Copyright (c) 2013 Sam Fox. All rights reserved.
 //
+#ifdef __cplusplus
 #import <opencv2/opencv.hpp>
-#import <opencv2/highgui/cap_ios.h>
-#import "circleDetector.h"
+#endif
 
-@implementation circleDetector
+@implementation circleDetector : UIViewController
 
 - (void) processImage:(cv::Mat &)image{
     cv::Mat grayImage;

@@ -22,7 +22,6 @@
 		425CAABB17FF8E2400F23AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAA9A17FF8E2400F23AD2 /* UIKit.framework */; };
 		425CAAC317FF8E2400F23AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425CAAC117FF8E2400F23AD2 /* InfoPlist.strings */; };
 		425CAAC517FF8E2400F23AD2 /* ios7testerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CAAC417FF8E2400F23AD2 /* ios7testerTests.m */; };
-		425CAACF17FF8F9900F23AD2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAACE17FF8F9900F23AD2 /* opencv2.framework */; };
 		425CAAD117FF911600F23AD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAAD017FF911600F23AD2 /* Accelerate.framework */; };
 		425CAAD317FF911D00F23AD2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAAD217FF911D00F23AD2 /* AssetsLibrary.framework */; };
 		425CAAD517FF912400F23AD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAAD417FF912400F23AD2 /* AVFoundation.framework */; };
@@ -31,9 +30,8 @@
 		425CAADB17FF914400F23AD2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAADA17FF914400F23AD2 /* CoreVideo.framework */; };
 		425CAADD17FF915000F23AD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CAADC17FF915000F23AD2 /* QuartzCore.framework */; };
 		427FFDB6180BFC4300D17F96 /* circleDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427FFDB5180BFC4300D17F96 /* circleDetector.mm */; };
-		427FFDB9180C122E00D17F96 /* FarnebeckOpticalFlow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427FFDB8180C122E00D17F96 /* FarnebeckOpticalFlow.mm */; };
+		427FFDB9180C122E00D17F96 /* OpticalFlow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427FFDB8180C122E00D17F96 /* OpticalFlow.mm */; };
 		42C7AEEE180E80DA007EE55D /* freak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42C7AEED180E80DA007EE55D /* freak.mm */; };
-		42C7AEF0180EA721007EE55D /* santitas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7AEEF180EA721007EE55D /* santitas.jpg */; };
 		42C7AEF2180EABF3007EE55D /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7AEF1180EABF3007EE55D /* imgres.jpg */; };
 		42C7AEF4180EB077007EE55D /* warhol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7AEF3180EB077007EE55D /* warhol.jpg */; };
 		42C7AEF6180EC10D007EE55D /* uncorked_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7AEF5180EC10D007EE55D /* uncorked_icon.jpg */; };
@@ -46,6 +44,7 @@
 		42F45481180A2D3D00590B05 /* Sriracha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F45480180A2D3D00590B05 /* Sriracha.jpg */; };
 		42F45483180A2F6D00590B05 /* original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F45482180A2F6D00590B05 /* original.jpg */; };
 		42F45485180A2FE600590B05 /* square_annies_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F45484180A2FE600590B05 /* square_annies_logo.jpg */; };
+		D01CFB9B1AE1BEA5001D1CA4 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01CFB9A1AE1BEA5001D1CA4 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +78,6 @@
 		425CAAC017FF8E2400F23AD2 /* ios7testerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios7testerTests-Info.plist"; sourceTree = "<group>"; };
 		425CAAC217FF8E2400F23AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		425CAAC417FF8E2400F23AD2 /* ios7testerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios7testerTests.m; sourceTree = "<group>"; };
-		425CAACE17FF8F9900F23AD2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ios7tester/opencv2.framework; sourceTree = "<group>"; };
 		425CAAD017FF911600F23AD2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		425CAAD217FF911D00F23AD2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		425CAAD417FF912400F23AD2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -89,11 +87,10 @@
 		425CAADC17FF915000F23AD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		427FFDB4180BFC4300D17F96 /* circleDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleDetector.h; sourceTree = "<group>"; };
 		427FFDB5180BFC4300D17F96 /* circleDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = circleDetector.mm; sourceTree = "<group>"; };
-		427FFDB7180C122E00D17F96 /* FarnebeckOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarnebeckOpticalFlow.h; sourceTree = "<group>"; };
-		427FFDB8180C122E00D17F96 /* FarnebeckOpticalFlow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FarnebeckOpticalFlow.mm; sourceTree = "<group>"; };
+		427FFDB7180C122E00D17F96 /* OpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpticalFlow.h; sourceTree = "<group>"; };
+		427FFDB8180C122E00D17F96 /* OpticalFlow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpticalFlow.mm; sourceTree = "<group>"; };
 		42C7AEEC180E80DA007EE55D /* freak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freak.h; sourceTree = "<group>"; };
 		42C7AEED180E80DA007EE55D /* freak.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = freak.mm; sourceTree = "<group>"; };
-		42C7AEEF180EA721007EE55D /* santitas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santitas.jpg; sourceTree = "<group>"; };
 		42C7AEF1180EABF3007EE55D /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
 		42C7AEF3180EB077007EE55D /* warhol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warhol.jpg; sourceTree = "<group>"; };
 		42C7AEF5180EC10D007EE55D /* uncorked_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uncorked_icon.jpg; sourceTree = "<group>"; };
@@ -109,6 +106,7 @@
 		42F45480180A2D3D00590B05 /* Sriracha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sriracha.jpg; sourceTree = "<group>"; };
 		42F45482180A2F6D00590B05 /* original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpg; sourceTree = "<group>"; };
 		42F45484180A2FE600590B05 /* square_annies_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square_annies_logo.jpg; sourceTree = "<group>"; };
+		D01CFB9A1AE1BEA5001D1CA4 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Downloads/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01CFB9B1AE1BEA5001D1CA4 /* opencv2.framework in Frameworks */,
 				425CAA9B17FF8E2400F23AD2 /* UIKit.framework in Frameworks */,
 				425CAADD17FF915000F23AD2 /* QuartzCore.framework in Frameworks */,
 				425CAADB17FF914400F23AD2 /* CoreVideo.framework in Frameworks */,
@@ -125,7 +124,6 @@
 				425CAAD317FF911D00F23AD2 /* AssetsLibrary.framework in Frameworks */,
 				425CAAD117FF911600F23AD2 /* Accelerate.framework in Frameworks */,
 				425CAA9917FF8E2400F23AD2 /* CoreGraphics.framework in Frameworks */,
-				425CAACF17FF8F9900F23AD2 /* opencv2.framework in Frameworks */,
 				425CAA9717FF8E2400F23AD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,7 +163,7 @@
 		425CAA9517FF8E2400F23AD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				425CAACE17FF8F9900F23AD2 /* opencv2.framework */,
+				D01CFB9A1AE1BEA5001D1CA4 /* opencv2.framework */,
 				425CAADC17FF915000F23AD2 /* QuartzCore.framework */,
 				425CAADA17FF914400F23AD2 /* CoreVideo.framework */,
 				425CAAD817FF913B00F23AD2 /* CoreMedia.framework */,
@@ -200,8 +198,8 @@
 				427FFDB5180BFC4300D17F96 /* circleDetector.mm */,
 				42C7AEEC180E80DA007EE55D /* freak.h */,
 				42C7AEED180E80DA007EE55D /* freak.mm */,
-				427FFDB7180C122E00D17F96 /* FarnebeckOpticalFlow.h */,
-				427FFDB8180C122E00D17F96 /* FarnebeckOpticalFlow.mm */,
+				427FFDB7180C122E00D17F96 /* OpticalFlow.h */,
+				427FFDB8180C122E00D17F96 /* OpticalFlow.mm */,
 				425CAAB117FF8E2400F23AD2 /* Images.xcassets */,
 				425CAA9D17FF8E2400F23AD2 /* Supporting Files */,
 			);
@@ -211,7 +209,6 @@
 		425CAA9D17FF8E2400F23AD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42C7AEEF180EA721007EE55D /* santitas.jpg */,
 				42F4547B180A11A900590B05 /* annies.jpg */,
 				42F45480180A2D3D00590B05 /* Sriracha.jpg */,
 				42F45482180A2F6D00590B05 /* original.jpg */,
@@ -291,9 +288,12 @@
 		425CAA8B17FF8E2400F23AD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Sam Fox";
 				TargetAttributes = {
+					425CAA9217FF8E2400F23AD2 = {
+						DevelopmentTeam = RS5US36289;
+					};
 					425CAAB617FF8E2400F23AD2 = {
 						TestTargetID = 425CAA9217FF8E2400F23AD2;
 					};
@@ -333,7 +333,6 @@
 				42C7AEF6180EC10D007EE55D /* uncorked_icon.jpg in Resources */,
 				42C7AEF2180EABF3007EE55D /* imgres.jpg in Resources */,
 				42C7AEF8180EC227007EE55D /* uncorked_logo300.png in Resources */,
-				42C7AEF0180EA721007EE55D /* santitas.jpg in Resources */,
 				425CAAA117FF8E2400F23AD2 /* InfoPlist.strings in Resources */,
 				42C7AEFA180EC55C007EE55D /* santita2.png in Resources */,
 				42F45483180A2F6D00590B05 /* original.jpg in Resources */,
@@ -357,7 +356,7 @@
 			files = (
 				425CAAB017FF8E2400F23AD2 /* ViewController.mm in Sources */,
 				42F4547F180A176400590B05 /* templateMatcher.mm in Sources */,
-				427FFDB9180C122E00D17F96 /* FarnebeckOpticalFlow.mm in Sources */,
+				427FFDB9180C122E00D17F96 /* OpticalFlow.mm in Sources */,
 				42C7AEEE180E80DA007EE55D /* freak.mm in Sources */,
 				42F4547A1809B56000590B05 /* CVDelegate.mm in Sources */,
 				427FFDB6180BFC4300D17F96 /* circleDetector.mm in Sources */,
@@ -425,7 +424,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -465,7 +463,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -500,15 +497,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Lisa/ios7tester/ios7tester,
+					/Users/sam.royston/nonWorkProjects/OpenCViOS/ios7tester,
+					/Users/sam.royston/nonWorkProjects/OpenCViOS,
+					/Users/sam.royston/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios7tester/ios7tester-Prefix.pch";
 				INFOPLIST_FILE = "ios7tester/ios7tester-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm32";
 				WRAPPER_EXTENSION = app;
 			};
@@ -519,14 +522,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Lisa/ios7tester/ios7tester,
+					/Users/sam.royston/nonWorkProjects/OpenCViOS/ios7tester,
+					/Users/sam.royston/nonWorkProjects/OpenCViOS,
+					/Users/sam.royston/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios7tester/ios7tester-Prefix.pch";
 				INFOPLIST_FILE = "ios7tester/ios7tester-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm32 armv7 armv7s";
 				"VALID_ARCHS[sdk=*]" = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -536,7 +545,6 @@
 		425CAACC17FF8E2400F23AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios7tester.app/ios7tester";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -559,7 +567,6 @@
 		425CAACD17FF8E2400F23AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios7tester.app/ios7tester";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

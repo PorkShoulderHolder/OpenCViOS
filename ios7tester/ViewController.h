@@ -19,16 +19,17 @@ using namespace cv;
 #import "CVDelegate.h"
 #import "circleDetector.h"
 #import "templateMatcher.h"
-#import "FarnebeckOpticalFlow.h"
+#import "OpticalFlow.h"
 #import "freak.h"
 
 @interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,retain) IBOutlet UIImageView *imgView;
 @property (nonatomic,retain) CVDelegate *del;
+@property (nonatomic,retain) CvVideoCamera *camera;
 @property (nonatomic,retain) circleDetector *circleD;
 @property (nonatomic,retain) templateMatcher *templateDel;
-@property (nonatomic,retain) FarnebeckOpticalFlow *farnebeck;
+@property (nonatomic,retain) OpticalFlow *opticalFlow;
 @property (nonatomic,retain) freak *freek;
 @property (nonatomic,retain) IBOutlet UITableView *tableView;
 
